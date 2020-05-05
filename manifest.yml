@@ -1,0 +1,6 @@
+---
+applications:
+- name: cashing-service
+
+env:
+  buildpack: java_buildpack
