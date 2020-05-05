@@ -31,4 +31,10 @@ public class CachingApi {
     public String testPutCache(){
         return "test";
     }
+
+    @CachePut(cacheNames = "test4")
+    @GetMapping("/testCaching4")
+    public String testPutCache4(){
+        return "test4";
+    }
 }
